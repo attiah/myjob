@@ -4,7 +4,7 @@
 <widget xmlns     = "http://www.mharattwzeef.com"
         xmlns:gap = "http://www.mharattwzeef.com"
         id        = "www.mharattwzeef.com"
-        version   = "2.3">
+        version   = "2.3.1">
 
     <name>مهارات للتوظيف</name>
 
