@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>مهارات للتوظيف </title>
+    <script src="jquery-1.11.2.min.js" type="text/javascript"></script>
+    <link href="jquery.mobile-1.4.5.min.css" rel="stylesheet" type="text/css" />
+    <script src="jquery.mobile-1.4.5.min.js" type="text/javascript"></script>
+    <script src="mainmenu.js" type="text/javascript"></script> 
+    <link rel="stylesheet" href="themes/mutahed.min.css" />
+    <link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+</head>
+<body style="direction:rtl; margin:5px" >
+
+<div data-role="page" id="home" data-theme="a">
+ <div data-role="header" data-position="fixed" >
+    <a href="javascript:menu()"  class="ui-btn ui-btn-right  ui-icon-grid ui-btn-icon-right ui-btn-icon-notext" ></a>
+    <h1 style="text-align:center;"> مهارات للتوظيف </h1>
+  </div>
+  <div data-role="content" class="ui-content"  >
+  <h2 style="text-align:center"> شاركنا برائيك</h2>
+      <label for="fname">الاسم الثلاثى:</label>
+      <input type="text" name="fname" id="fname" style="text-align:right">
+      <label for="jawal">رقم الجوال :</label>
+      <input type="text" name="jawal" id="jawal" style="text-align:right">
+      <label for="email"> البريد الالكتروني :</label>
+      <input type="email" name="email" id="email" >
+      <label for="title">عنوان الرسالة  :</label>
+      <input type="text" name="title" id="title" style="text-align:right">
+      <label for="message">نص الرسالة  :</label>
+     <textarea cols="40" rows="12" name="message" id="message" style="text-align:right"></textarea>
+     <a href="javascript:senduser()"  class="ui-btn  ui-shadow ui-corner-all" style="background-color:#0ec2db; color:White; " >ارسال </a>  
+  </div>
+ 
+</div>
+</body>
+</html>
